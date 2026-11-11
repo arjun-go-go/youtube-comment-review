@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-11",
+  "provenanceLabel": "Saved historical developer sample; cloud execution could not be reverified.",
+  "recordedRunId": "qln2pjpwCHunRPUKQ",
+  "recordedBuild": "0.1.13",
+  "recordedCollectionDate": "2026-10-20",
+  "copyFormat": "Repository files use LF line endings. Development-project originals use CRLF. JSON values are unchanged.",
+  "cloudRecheck": {
+    "publicRunApi": "record-not-found",
+    "authenticatedConsole": "run could not be found",
+    "reasonForAbsence": "Unknown; no inference that it expired or was deleted.",
+    "newActorRunStarted": false
+  },
+  "files": [
+    {
+      "file": "sample-output.json",
+      "sha256": "6fe861fa7d10846109dd23e9f566cb38396705def2c206887ff0f32f7e92d2cf",
+      "developmentProjectSha256": "a91818aa9a4f04d8e764d698ceef66dbc62d7ab6bc5ba850aa096b122b5c6aa5",
+      "sameBytes": false,
+      "sameContentAfterLineEndingNormalization": true
+    },
+    {
+      "file": "original-input.json",
+      "sha256": "7b80d37e99f2b288afea4febd455ed2cc9f6c54f301824ce6882c1d2689ab07c",
+      "developmentProjectSha256": "d03459e574a99bbc93c5df537ae910ad2670d06dafa84b078975de0a8520709b",
+      "sameBytes": false,
+      "sameContentAfterLineEndingNormalization": true
+    }
+  ],
+  "scope": "File identity, record structure and offline conversion. Not a fresh collection or proof of currently accessible source data."
+}
