@@ -46,7 +46,7 @@ python review_comments.py my-comments.json --out my-review
 
 ## 样例来源与核验范围
 
-`sample-output.json` 原样复制自开发项目保存的样例。随附记录将它归于运行 `qln2pjpwCHunRPUKQ`、build `0.1.13`，采集日期为 2026-10-20。`original-input.json` 是该记录保存的输入，包含重复视频链接、无效链接和关闭评论的视频；它不是推荐的首次运行配置。
+`sample-output.json` 来自开发项目保存的样例。仓库副本统一使用 LF 换行，JSON 中的值没有改动；`provenance-check.json` 分别记录仓库文件与原始文件的校验值。随附记录将它归于运行 `qln2pjpwCHunRPUKQ`、build `0.1.13`，采集日期为 2026-10-20。`original-input.json` 是该记录保存的输入，包含重复视频链接、无效链接和关闭评论的视频；它不是推荐的首次运行配置。
 
 2026-11-11 复核时，Apify API 与已登录 Console 均未找到这次运行。现阶段可核验的是本地文件一致性、42 条记录的结构，以及从 JSON 到 CSV 的转换，不能重新核验云端运行或保证今天能采到相同评论。不是客户项目、实时结果或效果承诺。详见 `provenance-check.json`。
 
