@@ -1,0 +1,23 @@
+{
+  "startUrls": [
+    {
+      "url": "https://www.youtube.com/watch?v=YE7VzlLtp-4"
+    },
+    {
+      "url": "https://youtu.be/YE7VzlLtp-4"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/cjSKS1D9Kow"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XqZsoesa55w"
+    },
+    {
+      "url": "https://example.com/watch?v=YE7VzlLtp-4"
+    }
+  ],
+  "maxCommentsPerVideo": 20,
+  "sortBy": "top",
+  "includeReplies": true,
+  "maxRepliesPerThread": 10
+}
