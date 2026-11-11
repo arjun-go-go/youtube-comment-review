@@ -46,7 +46,7 @@ New collection runs take place in your Apify account and may incur charges. Chec
 
 ## Sample provenance and verification limits
 
-`sample-output.json` is an unchanged copy of a saved development-project sample. Its accompanying record identifies run `qln2pjpwCHunRPUKQ`, build `0.1.13`, collected on October 20, 2026. `original-input.json` contains the saved input, including duplicate video links, an invalid link and a comments-disabled video. It is not a recommended first-run configuration.
+`sample-output.json` contains a saved development-project sample. The repository copies use LF line endings; JSON values are unchanged. `provenance-check.json` records both repository-file and original-source hashes. The accompanying record identifies run `qln2pjpwCHunRPUKQ`, build `0.1.13`, collected on October 20, 2026. `original-input.json` contains the saved input, including duplicate video links, an invalid link and a comments-disabled video. It is not a recommended first-run configuration.
 
 On November 11, 2026, neither the Apify API nor the authenticated Console could find that run. What can be checked now is local file consistency, the structure of the 42 records, and the JSON-to-CSV transformation. The cloud execution cannot be reverified, and collecting the same comments today is not guaranteed. This is not a customer project, live result or performance claim. See `provenance-check.json`.
 
